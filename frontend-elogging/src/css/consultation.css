@@ -1,0 +1,57 @@
+.consultation-container {
+  margin: 20px 100px 50px 200px;
+  width: 1500px; 
+  padding: 25px;
+}
+
+.consultation-table {
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 70px;
+  border-collapse: collapse;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.consultation-table th,
+.consultation-table td {
+  padding: 20px 25px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+.consultation-table th {
+  background-color: #343a40;
+  color: white;
+  font-size: 18px; 
+}
+
+.consultation-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.consultation-table tr:hover {
+  background-color: #e9ecef;
+}
+
+.consultation-table td {
+  font-size: 16px; 
+}
+
+.consultation-table td:last-child {
+  font-weight: bold;
+  color: #007bff;
+}
+.filter-section {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+#instructor-filter {
+  padding: 5px;
+  width: 200px;
+  flex-direction: row;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
